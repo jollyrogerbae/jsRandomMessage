@@ -1,0 +1,72 @@
+h1{
+    color: #fff;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#button-container{
+    border-radius: 5rem;
+    background-color: rgb(212, 238, 159);
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    border: 1px, white; 
+    text-align: center;
+    height: 25rem;
+}
+
+button{
+    box-shadow: 2p darkcyan;
+    color: black;
+    background-color: bisque;
+    margin-top: 2rem;
+}
+
+button:active{
+    background-color: darkcyan;
+}
+body{
+    background-color: rgb(13, 77, 77);
+    margin: 0;
+}
+
+#output{
+    border: 1px black;
+    padding: 1rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    border-radius 25%;
+    color: #fff;
+    background-color: rgb(85, 0, 0);
+    width: 100%;
+}
+
+footer p{
+    margin-left: 2rem;
+}
+
+footer ul{
+    margin-right: 2rem;
+    padding-right: 1rem;
+    list-style-type:none;
+}
+
+footer li{
+    text-align: center;
+
+}
+footer a{
+    color: rgb(255, 170, 170);
+    text-decoration: none;
+
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
